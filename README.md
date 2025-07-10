@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Github - Project 01 - Landing Page](https://vanessaplj.github.io/project-01-landing-page/)
+- Solution URL: [Github - Project 01 - Files](https://github.com/vanessaplj/project-01-landing-page)
+- Live Site URL: [Github Pages - Project 01 - Landing Page](https://vanessaplj.github.io/project-01-landing-page/)
 
 ## My process
 
