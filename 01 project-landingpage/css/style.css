@@ -1,0 +1,101 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    font-family: "Poppins", "Open Sans", sans-serif;
+}
+main{
+    background-image: url(../img/bg-desktop.svg);
+    height:100vh;
+}
+
+@media (max-width: 768px) {
+  main{
+    background-image: url(../img/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top;
+}
+}
+
+/*----------------------------------------------------------------------*/
+.header{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    width:15vw;
+}
+@media (max-width: 768px) {
+.header{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width:30vw;
+}
+}
+/*----------------------------------------------------------------------*/
+.sec2{
+    width:100%;
+    justify-self: center;
+}
+.div1{
+    padding: 5vh;
+    padding-left: 5vw;
+}
+.div2{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    align-content: center;
+}
+.div3{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
+    margin-bottom: 2vh;
+}
+.div4{
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: white;
+}
+.btn{
+    background-color: white;
+    font-family: "Open Sans";
+    font-weight: 400;
+    border-radius: 25px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: hsl(257, 40%, 49%);
+}
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+@media (max-width: 768px) {
+.div3, .div4, .div5{
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+}
+/*----------------------------------------------------------------------*/
+.sec3{
+    justify-content: end;
+    padding-right: 7vw;
+}
+.icon{
+    border: 1.5px solid white;
+    border-radius: 100px;
+    width:38px;
+    height:38px;
+    justify-content: center;
+    margin-right: 2vw;
+}
+.bi{
+    color:white;
+    align-self: center;
+}
+@media (max-width: 768px) {
+.sec3{
+    padding-top: 5vh;
+    justify-content: center;
+    padding-right: 0;
+}
+}
